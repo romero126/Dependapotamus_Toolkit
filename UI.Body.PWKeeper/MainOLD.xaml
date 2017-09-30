@@ -1,0 +1,31 @@
+<UserControl x:Class="UI.Body.PWKeeper.Main"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Grid Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}">
+		<Grid Margin="20">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="320" />
+				<ColumnDefinition Width="10" />
+				<ColumnDefinition Width="*" />
+			</Grid.ColumnDefinitions>
+			<Grid Grid.Column="2">
+
+			</Grid>
+	
+			<Grid Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+				<StackPanel>
+					<Label>Password:</Label>
+					<TextBox x:Name="Password" ></TextBox>
+					
+					<Label x:Name="PWHash" />
+					
+					<TextBox x:Name="InputText" />
+					<Button Click="Button_Click">Encrypt</Button>
+					<TextBox x:Name="OutputText" />
+					<Button Click="Decrypt_Click">Decrypt</Button>
+					<TextBox x:Name="DecryptText" />
+				</StackPanel>
+			</Grid>
+		</Grid>
+	</Grid>
+</UserControl>

@@ -1,0 +1,14 @@
+﻿<UserControl Height="45" x:Class="UI.Elements.ToolBar.SmallButton"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Loaded="UserControl_Loaded">
+	<UserControl.Resources>
+		<BitmapImage x:Key="DefaultIcon" UriSource="..\Images\Dark\appbar.control.stop.png" />
+	</UserControl.Resources>
+	<Grid x:Name="_Body">
+		<Border >
+			<Image x:Name="_Image" Source="{StaticResource DefaultIcon}"/>
+		</Border>
+		
+	</Grid>
+</UserControl>

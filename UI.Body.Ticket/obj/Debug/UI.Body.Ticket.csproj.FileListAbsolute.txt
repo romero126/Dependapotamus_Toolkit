@@ -1,0 +1,40 @@
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\bin\Debug\UI.Body.Ticket.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\bin\Debug\UI.Body.Ticket.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket.csprojResolveAssemblyReference.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\Logs.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\Logs.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket_MarkupCompile.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket.g.resources
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\Main.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket_MarkupCompile.lref
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\Main.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\Notes.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\Notes.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\TechInfo.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\TechInfo.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\bin\Debug\Microsoft.Lync.Model.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\bin\Debug\Microsoft.Office.Uc.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\bin\Debug\Microsoft.Lync.Model.xml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket.csprojResolveAssemblyReference.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\Logs.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\Notes.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\TechInfo.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\Logs.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\Main.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\Notes.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\TechInfo.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket_MarkupCompile.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket_MarkupCompile.lref
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\Main.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket.g.resources
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\bin\Debug\UI.Body.Ticket.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\bin\Debug\UI.Body.Ticket.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\bin\Debug\Microsoft.Lync.Model.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\bin\Debug\Microsoft.Office.Uc.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\bin\Debug\Microsoft.Lync.Model.xml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\UI.Body.Ticket\obj\Debug\UI.Body.Ticket.dll

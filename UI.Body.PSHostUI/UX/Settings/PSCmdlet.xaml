@@ -1,0 +1,43 @@
+<UserControl x:Class="UI.Body.PSHostUI.UX.Settings.PSCmdlet"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:T="clr-namespace:UI.Elements.UX;assembly=UI.Elements"
+		IsVisibleChanged="UserControl_IsVisibleChanged">
+	<Grid>
+		<T:Settings x:Name="Settings"
+		            EventClose="Settings_EventClose"
+		            Title="Commandlet Options" Visibility="Visible">
+			
+			<T:Settings_Page guid="1"
+			                 Title="Settings"
+			                 Icon="..\..\Images\Light\appbar.settings.png">
+				<StackPanel>
+					<Label Content="{Binding ID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+					<T:TextControl Text="Name:" value="{Binding NAME, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+					<T:TextControl Text="Description:" value="{Binding DESC, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+					<StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+						<T:FlatButton Width="150" Text="Save" BackgroundColor="Green" HoverBackgroundColor="DarkGreen" Click="Save_Click"/>
+						<Grid Width="20" />
+						<T:FlatButton Width="150" Text="Delete" BackgroundColor="Red" HoverBackgroundColor="DarkRed" Click="Delete_Click"/>
+					</StackPanel>
+				</StackPanel>
+			</T:Settings_Page>
+			<T:Settings_Page guid="2" Title="Script Editor" Icon="..\..\Images\Light\appbar.console.png">
+				<Border
+					Margin="25,25,25,25"
+					Background="DarkSlateBlue"
+					CornerRadius="5,5,5,5">
+					<Grid
+						Margin="10,10,10,10">
+						<TextBox
+							Background="DarkSlateBlue"
+							Text="{Binding SCRIPT, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+							BorderBrush="DarkSlateBlue"
+							Foreground="White"
+							AcceptsReturn="True"></TextBox>
+					</Grid>
+				</Border>
+			</T:Settings_Page>
+		</T:Settings>
+	</Grid>
+</UserControl>

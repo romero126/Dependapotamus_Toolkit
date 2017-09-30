@@ -1,0 +1,25 @@
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\ITAR Soverign Cloud Escort Toolkit.exe.config
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\ITAR Soverign Cloud Escort Toolkit.exe
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\ITAR Soverign Cloud Escort Toolkit.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\ITAR Soverign Cloud Escort Toolkit.csprojResolveAssemblyReference.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\App.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\ITAR Soverign Cloud Escort Toolkit_MarkupCompile.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\ITAR Soverign Cloud Escort Toolkit.g.resources
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\ITAR Soverign Cloud Escort Toolkit.exe
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\ITAR Soverign Cloud Escort Toolkit.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\UI.Body.Ticket.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\UI.Body.Ticket.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Window_Main.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Window_Main.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.Titlebar.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.Titlebar.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\ITAR Soverign Cloud Escort Toolkit_MarkupCompile.lref
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\Microsoft.Lync.Model.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\Microsoft.Office.Uc.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\Microsoft.Lync.Model.xml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.SideBar.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.SideBar.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Dictionary1.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.Body.Powershell.Main.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.Body.Powershell.Main.g.cs

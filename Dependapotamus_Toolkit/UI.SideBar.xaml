@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl
+	x:Class="UI.SideBar" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:T="clr-namespace:UI.Elements.ToolBar;assembly=UI.Elements">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition
+				Width="45" />
+			<ColumnDefinition
+				Width="*" />
+		</Grid.ColumnDefinitions>
+		<Grid
+			Grid.Column="0"
+			Background="DarkSlateBlue">
+			<StackPanel>
+				<T:SmallButton x:Name="SkypeForBusiness" Source="References\Dark\appbar.social.skype.png" MouseLeftButtonDown="SideBar_MouseLeftButtonDown"/>
+				<T:SmallButton x:Name="PowerShell" Source="References\Dark\appbar.console.png" MouseLeftButtonDown="SideBar_MouseLeftButtonDown"/>
+				<T:SmallButton x:Name="Ticket1" Source="References\Dark\appbar.scrabble.a.png" MouseLeftButtonDown="SideBar_MouseLeftButtonDown"/>
+				<T:SmallButton x:Name="Ticket2" Source="References\Dark\appbar.scrabble.b.png" MouseLeftButtonDown="SideBar_MouseLeftButtonDown"/>
+				<T:SmallButton x:Name="Ticket3" Source="References\Dark\appbar.scrabble.c.png" MouseLeftButtonDown="SideBar_MouseLeftButtonDown"/>
+				<T:SmallButton x:Name="Ticket4" Source="References\Dark\appbar.scrabble.d.png" MouseLeftButtonDown="SideBar_MouseLeftButtonDown"/>
+				<T:SmallButton x:Name="Password" Source="References\Dark\appbar.unlock.keyhole.png" MouseLeftButtonDown="SideBar_MouseLeftButtonDown"/>
+	
+			</StackPanel>
+		</Grid>
+	</Grid>
+</UserControl>

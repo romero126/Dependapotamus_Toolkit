@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="UI.Elements.UX.FlatButton"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+
+	>
+	<Border x:Name="_border" CornerRadius="10,10,10,10" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+		<Grid>
+			<Label x:Name="Label"
+				FontFamily="Segoe UI"
+				FontSize="12"
+				Foreground="Black"
+				VerticalAlignment="Center" HorizontalAlignment="Center" Content="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type UserControl}}, Path=Text, UpdateSourceTrigger=PropertyChanged}"/>
+		</Grid>
+	</Border>
+</UserControl>

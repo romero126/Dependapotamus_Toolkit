@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl
+	x:Class="UI.Titlebar" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Loaded="Control_Loaded">
+	<Grid>
+		<ContentControl
+			Grid.Row="0"
+			MouseDown="Move"
+			MouseDoubleClick="DoubleClick">
+			<Grid
+				Background="Black">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition
+						Width="45" />
+					<ColumnDefinition
+						Width="*" />
+					<ColumnDefinition
+						Width="135" />
+				</Grid.ColumnDefinitions>
+				<Grid
+					Grid.Column="0">
+					<Image
+						Source="References\Dark\appbar.layer.png"></Image>
+				</Grid>
+				<Grid
+					Grid.Column="1">
+					<Label
+						Foreground="White"
+						FontFamily="Segoe UI"
+						FontSize="16"
+						FontWeight="Medium"
+						Name="Label_Title">None</Label>
+				</Grid>
+				<Grid
+					Grid.Column="3">
+					<StackPanel
+						Orientation="Horizontal"
+						HorizontalAlignment="Right">
+						<Image
+							MouseDown="Minimize"
+							Source="References\Dark\appbar.minus.png" />
+						<Image
+							Source="References\Dark\appbar.close.png"
+							MouseDown="Close" />
+					</StackPanel>
+				</Grid>
+			</Grid>
+		</ContentControl>
+	</Grid>
+</UserControl>

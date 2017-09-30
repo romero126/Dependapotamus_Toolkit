@@ -1,0 +1,36 @@
+<UserControl x:Class="UI.Body.PWKeeper.UX.Settings.DatabaseList"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:T="clr-namespace:UI.Elements.UX;assembly=UI.Elements"
+	IsVisibleChanged="UserControl_IsVisibleChanged">
+	
+	
+	<Grid>
+		<T:Settings Title="Script Options" EventClose="Settings_EventClose">
+			
+			<T:Settings_Page guid="1" Title="Settings" Icon="..\..\Images\Light\appbar.settings.png">
+				<StackPanel>
+					<Label Content="{Binding ID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+					<T:TextControl Text="Name:" value="{Binding NAME, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+					<T:TextControl Text="Description:" value="{Binding DESC, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+					<T:TextControl Text="Path:" value="{Binding PATH, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+				
+					<Label 	FontFamily="Segoe UI Bold"
+							FontSize="15"
+							Foreground="Black"
+							VerticalAlignment="Center"
+							HorizontalAlignment="Left">
+						Set Password:
+					</Label>
+					<T:SetPassword />
+					<Grid Height="10" />
+					<StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+						<T:FlatButton Width="150" Text="Save" BackgroundColor="Green" HoverBackgroundColor="DarkGreen" Click="Save_Click"/>
+						<Grid Width="20" />
+						<T:FlatButton Width="150" Text="Delete" BackgroundColor="Red" HoverBackgroundColor="DarkRed" Click="Delete_Click"/>
+					</StackPanel>
+				</StackPanel>
+			</T:Settings_Page>
+		</T:Settings>
+	</Grid>
+</UserControl>

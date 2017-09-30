@@ -1,0 +1,5 @@
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\UI_Body_Ticket.csprojResolveAssemblyReference.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\Logs.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\Logs.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\UI_Body_Ticket_MarkupCompile.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\UI.Body.Ticket\obj\Debug\UI_Body_Ticket.g.resources

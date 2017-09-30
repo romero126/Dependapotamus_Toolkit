@@ -1,0 +1,261 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20170928134340
+Username: REDMOND\v-jurom
+RunAs User: REDMOND\v-jurom
+Machine: JROMERO-IGI (Microsoft Windows NT 6.2.9200.0)
+Host Application: 
+Process ID: 20664
+PSVersion: 5.1.15063.608
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.15063.608
+BuildVersion: 10.0.15063.608
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is CheckEasReport.txt
+VERBOSE: You are running the most current version (File date: 09/27/2017 14:47:01)
+VERBOSE: IDM Module not yet loaded. Checking local machine...
+VERBOSE: Loading module from path 'C:\Users\v-jurom\AppData\Local\Apps\2.0\ZAV5H35G.2JJ\45RP3RWM.X3K\acce..tion_96ed7b3958eb5c9e_0001.0000_a0a165d802250c2d\IDM.OnCallConsole.psm1'.
+VERBOSE: Exporting function 'Get-IDMPersonHistory'.
+VERBOSE: Exporting function 'Get-IDMPersonHealth'.
+VERBOSE: Exporting function 'Get-IDMPersonClearances'.
+VERBOSE: Exporting function 'Set-IDMContext'.
+VERBOSE: Exporting function 'Get-IDMCurrentIdentity'.
+VERBOSE: Exporting function 'Get-IDMCurrentSnapshot'.
+VERBOSE: Exporting function 'Get-IDMCurrentHistoryObject'.
+VERBOSE: Exporting function 'Get-ChildProperty'.
+VERBOSE: Exporting function 'Set-DateTimeOffsetFormat'.
+VERBOSE: Exporting function 'Get-IDMNewCjisStateImpact'.
+VERBOSE: Exporting function 'Open-IDMInstallLocation'.
+VERBOSE: Exporting function 'Prompt'.
+VERBOSE: Exporting function 'WithClearance'.
+VERBOSE: Exporting function 'SetFullContext'.
+VERBOSE: Exporting function 'SetIdentityContext'.
+VERBOSE: Exporting function 'GetWorkflowEvents'.
+VERBOSE: Exporting function 'NewEvent'.
+VERBOSE: Exporting function 'ResolveTargetObjects'.
+VERBOSE: Exporting cmdlet 'Add-IDMOnCallEngineer'.
+VERBOSE: Exporting cmdlet 'Add-IDMAuditor'.
+VERBOSE: Exporting cmdlet 'Add-IDMWorkloadAdministrator'.
+VERBOSE: Exporting cmdlet 'Add-IDMClearanceAdministrator'.
+VERBOSE: Exporting cmdlet 'Add-IDMAdministrator'.
+VERBOSE: Exporting cmdlet 'Add-IDMClearanceRequest'.
+VERBOSE: Exporting cmdlet 'Add-IDMDelegate'.
+VERBOSE: Exporting cmdlet 'Add-IDMFlightedUser'.
+VERBOSE: Exporting cmdlet 'Set-IDMClearanceDefinition'.
+VERBOSE: Exporting cmdlet 'Get-IDMOnCallEngineer'.
+VERBOSE: Exporting cmdlet 'Get-IDMWorkloadAdministrator'.
+VERBOSE: Exporting cmdlet 'Get-IDMWorkload'.
+VERBOSE: Exporting cmdlet 'Remove-IDMOnCallEngineer'.
+VERBOSE: Exporting cmdlet 'Remove-IDMWorkloadAdministrator'.
+VERBOSE: Exporting cmdlet 'Enable-IDMPerson'.
+VERBOSE: Exporting cmdlet 'Get-IDMClearanceDefinition'.
+VERBOSE: Exporting cmdlet 'Get-IDMHealth'.
+VERBOSE: Exporting cmdlet 'Get-IDMPersonSnapshot'.
+VERBOSE: Exporting cmdlet 'Add-IDMEscalateEligibilityRequest'.
+VERBOSE: Exporting cmdlet 'Add-IDMEscalateClearanceRequest'.
+VERBOSE: Exporting cmdlet 'Disable-IDMPerson'.
+VERBOSE: Exporting cmdlet 'New-IDMEligibilityClearanceRequirement'.
+VERBOSE: Exporting cmdlet 'Set-IDMDefaultApproverTeam'.
+VERBOSE: Exporting cmdlet 'Get-IDMWorkQueueItem'.
+VERBOSE: Exporting cmdlet 'Set-IDMEligibilityDefinition'.
+VERBOSE: Exporting cmdlet 'Add-IDMTorusApproverTeamAdministrator'.
+VERBOSE: Exporting cmdlet 'Approve-IDMEligibilityRequest'.
+VERBOSE: Exporting cmdlet 'Deny-IDMEligibilityRequest'.
+VERBOSE: Exporting cmdlet 'Get-IDMDelegate'.
+VERBOSE: Exporting cmdlet 'Get-IDMFlightedUser'.
+VERBOSE: Exporting cmdlet 'Get-IDMHelp'.
+VERBOSE: Exporting cmdlet 'New-IDMEligibilityDefinition'.
+VERBOSE: Exporting cmdlet 'Remove-IDMEligibility'.
+VERBOSE: Exporting cmdlet 'Remove-IDMFlightedUser'.
+VERBOSE: Exporting cmdlet 'Remove-IDMTorusApprover'.
+VERBOSE: Exporting cmdlet 'Remove-IDMTorusApproverTeam'.
+VERBOSE: Exporting cmdlet 'Add-IDMTorusApprover'.
+VERBOSE: Exporting cmdlet 'Set-IDMDelegate'.
+VERBOSE: Exporting cmdlet 'Set-IDMTorusApproverTeam'.
+VERBOSE: Exporting cmdlet 'Add-IDMTorusApproverTeam'.
+VERBOSE: Exporting cmdlet 'Deny-IDMClearanceRequest'.
+VERBOSE: Exporting cmdlet 'Approve-IDMClearanceRequest'.
+VERBOSE: Exporting cmdlet 'Get-IDMClearanceRequest'.
+VERBOSE: Exporting cmdlet 'Get-IDMClearanceApprovals'.
+VERBOSE: Exporting cmdlet 'Remove-IDMClearanceRequest'.
+VERBOSE: Exporting cmdlet 'Get-IDMTorusApproverTeam'.
+VERBOSE: Exporting cmdlet 'New-IDMTorusApproverTeam'.
+VERBOSE: Exporting cmdlet 'Set-IDMWorkflow'.
+VERBOSE: Exporting cmdlet 'Set-IDMWorkQueueItemSchedule'.
+VERBOSE: Exporting cmdlet 'Get-IDMWorkflow'.
+VERBOSE: Exporting cmdlet 'Get-IDMEligibilityApprovals'.
+VERBOSE: Exporting cmdlet 'Remove-IDMEligibilityRequest'.
+VERBOSE: Exporting cmdlet 'Add-IDMEligibilityRequest'.
+VERBOSE: Exporting cmdlet 'Get-IDMClearanceAdministrator'.
+VERBOSE: Exporting cmdlet 'Get-IDMAuditor'.
+VERBOSE: Exporting cmdlet 'Get-IDMAdministrator'.
+VERBOSE: Exporting cmdlet 'Get-IDMEligibilityDefinition'.
+VERBOSE: Exporting cmdlet 'New-IDMClearance'.
+VERBOSE: Exporting cmdlet 'Get-IDMEligibilityRequest'.
+VERBOSE: Exporting cmdlet 'New-IDMSession'.
+VERBOSE: Exporting cmdlet 'Remove-IDMClearanceAdministrator'.
+VERBOSE: Exporting cmdlet 'Remove-IDMAuditor'.
+VERBOSE: Exporting cmdlet 'Remove-IDMAdministrator'.
+VERBOSE: Exporting cmdlet 'Remove-IDMClearance'.
+VERBOSE: Exporting cmdlet 'Set-IDMClearance'.
+VERBOSE: Exporting cmdlet 'Remove-IDMPerson'.
+VERBOSE: Exporting cmdlet 'Add-IDMPerson'.
+VERBOSE: Exporting cmdlet 'Get-IDMPerson'.
+VERBOSE: Importing cmdlet 'Add-IDMAdministrator'.
+VERBOSE: Importing cmdlet 'Add-IDMAuditor'.
+VERBOSE: Importing cmdlet 'Add-IDMClearanceAdministrator'.
+VERBOSE: Importing cmdlet 'Add-IDMClearanceRequest'.
+VERBOSE: Importing cmdlet 'Add-IDMDelegate'.
+VERBOSE: Importing cmdlet 'Add-IDMEligibilityRequest'.
+VERBOSE: Importing cmdlet 'Add-IDMEscalateClearanceRequest'.
+VERBOSE: Importing cmdlet 'Add-IDMEscalateEligibilityRequest'.
+VERBOSE: Importing cmdlet 'Add-IDMFlightedUser'.
+VERBOSE: Importing cmdlet 'Add-IDMOnCallEngineer'.
+VERBOSE: Importing cmdlet 'Add-IDMPerson'.
+VERBOSE: Importing cmdlet 'Add-IDMTorusApprover'.
+VERBOSE: Importing cmdlet 'Add-IDMTorusApproverTeam'.
+VERBOSE: Importing cmdlet 'Add-IDMTorusApproverTeamAdministrator'.
+VERBOSE: Importing cmdlet 'Add-IDMWorkloadAdministrator'.
+VERBOSE: Importing cmdlet 'Approve-IDMClearanceRequest'.
+VERBOSE: Importing cmdlet 'Approve-IDMEligibilityRequest'.
+VERBOSE: Importing cmdlet 'Deny-IDMClearanceRequest'.
+VERBOSE: Importing cmdlet 'Deny-IDMEligibilityRequest'.
+VERBOSE: Importing cmdlet 'Disable-IDMPerson'.
+VERBOSE: Importing cmdlet 'Enable-IDMPerson'.
+VERBOSE: Importing cmdlet 'Get-IDMAdministrator'.
+VERBOSE: Importing cmdlet 'Get-IDMAuditor'.
+VERBOSE: Importing cmdlet 'Get-IDMClearanceAdministrator'.
+VERBOSE: Importing cmdlet 'Get-IDMClearanceApprovals'.
+VERBOSE: Importing cmdlet 'Get-IDMClearanceDefinition'.
+VERBOSE: Importing cmdlet 'Get-IDMClearanceRequest'.
+VERBOSE: Importing cmdlet 'Get-IDMDelegate'.
+VERBOSE: Importing cmdlet 'Get-IDMEligibilityApprovals'.
+VERBOSE: Importing cmdlet 'Get-IDMEligibilityDefinition'.
+VERBOSE: Importing cmdlet 'Get-IDMEligibilityRequest'.
+VERBOSE: Importing cmdlet 'Get-IDMFlightedUser'.
+VERBOSE: Importing cmdlet 'Get-IDMHealth'.
+VERBOSE: Importing cmdlet 'Get-IDMHelp'.
+VERBOSE: Importing cmdlet 'Get-IDMOnCallEngineer'.
+VERBOSE: Importing cmdlet 'Get-IDMPerson'.
+VERBOSE: Importing cmdlet 'Get-IDMPersonSnapshot'.
+VERBOSE: Importing cmdlet 'Get-IDMTorusApproverTeam'.
+VERBOSE: Importing cmdlet 'Get-IDMWorkflow'.
+VERBOSE: Importing cmdlet 'Get-IDMWorkload'.
+VERBOSE: Importing cmdlet 'Get-IDMWorkloadAdministrator'.
+VERBOSE: Importing cmdlet 'Get-IDMWorkQueueItem'.
+VERBOSE: Importing cmdlet 'New-IDMClearance'.
+VERBOSE: Importing cmdlet 'New-IDMEligibilityClearanceRequirement'.
+VERBOSE: Importing cmdlet 'New-IDMEligibilityDefinition'.
+VERBOSE: Importing cmdlet 'New-IDMSession'.
+VERBOSE: Importing cmdlet 'New-IDMTorusApproverTeam'.
+VERBOSE: Importing cmdlet 'Remove-IDMAdministrator'.
+VERBOSE: Importing cmdlet 'Remove-IDMAuditor'.
+VERBOSE: Importing cmdlet 'Remove-IDMClearance'.
+VERBOSE: Importing cmdlet 'Remove-IDMClearanceAdministrator'.
+VERBOSE: Importing cmdlet 'Remove-IDMClearanceRequest'.
+VERBOSE: Importing cmdlet 'Remove-IDMEligibility'.
+VERBOSE: Importing cmdlet 'Remove-IDMEligibilityRequest'.
+VERBOSE: Importing cmdlet 'Remove-IDMFlightedUser'.
+VERBOSE: Importing cmdlet 'Remove-IDMOnCallEngineer'.
+VERBOSE: Importing cmdlet 'Remove-IDMPerson'.
+VERBOSE: Importing cmdlet 'Remove-IDMTorusApprover'.
+VERBOSE: Importing cmdlet 'Remove-IDMTorusApproverTeam'.
+VERBOSE: Importing cmdlet 'Remove-IDMWorkloadAdministrator'.
+VERBOSE: Importing cmdlet 'Set-IDMClearance'.
+VERBOSE: Importing cmdlet 'Set-IDMClearanceDefinition'.
+VERBOSE: Importing cmdlet 'Set-IDMDefaultApproverTeam'.
+VERBOSE: Importing cmdlet 'Set-IDMDelegate'.
+VERBOSE: Importing cmdlet 'Set-IDMEligibilityDefinition'.
+VERBOSE: Importing cmdlet 'Set-IDMTorusApproverTeam'.
+VERBOSE: Importing cmdlet 'Set-IDMWorkflow'.
+VERBOSE: Importing cmdlet 'Set-IDMWorkQueueItemSchedule'.
+VERBOSE: Importing function 'Get-ChildProperty'.
+VERBOSE: Importing function 'Get-IDMCurrentHistoryObject'.
+VERBOSE: Importing function 'Get-IDMCurrentIdentity'.
+VERBOSE: Importing function 'Get-IDMCurrentSnapshot'.
+VERBOSE: Importing function 'Get-IDMNewCjisStateImpact'.
+VERBOSE: Importing function 'Get-IDMPersonClearances'.
+VERBOSE: Importing function 'Get-IDMPersonHealth'.
+VERBOSE: Importing function 'Get-IDMPersonHistory'.
+VERBOSE: Importing function 'GetWorkflowEvents'.
+VERBOSE: Importing function 'NewEvent'.
+VERBOSE: Importing function 'Open-IDMInstallLocation'.
+VERBOSE: Importing function 'Prompt'.
+VERBOSE: Importing function 'ResolveTargetObjects'.
+VERBOSE: Importing function 'Set-DateTimeOffsetFormat'.
+VERBOSE: Importing function 'Set-IDMContext'.
+VERBOSE: Importing function 'SetFullContext'.
+VERBOSE: Importing function 'SetIdentityContext'.
+VERBOSE: Importing function 'WithClearance'.
+VERBOSE: Using clearance and eligibility definitions from \\ecl\TeamShares\AccessChecker\config\Escort.xml
+VERBOSE: Found 6 Clearances for current user.
+VERBOSE: Found 21 Eligibilities for current user.
+VERBOSE: Comparing clearances against Escort role...
+VERBOSE: Comparing eligibilities against Escort role...
+
+
+Access report for Juan Romero (Insight Global) (v-jurom)
+Manager: v-canune
+Date: 09/28/2017 13:43:42
+
+Clearances:
+
+Background Check           :
+[OK]
+
+CJIS                       :
+[N/A]
+
+EOD                        :
+[OK]
+
+Fingerprinting             :
+[OK]
+
+FISMA Training             :
+[OK]
+
+IT-2                       :
+[OK]
+
+PTP-High                   :
+[N/A]
+
+US Citizenship             :
+[OK]
+
+
+
+Eligibilities:
+
+ARUNA Vendor Escort Team   :
+[OK]
+WARNING: Use account soon to avoid expiration!
+EOP ViewOnly (MGT07/ITAR)  :
+[OK]
+
+Nimitz Vendor Escort Team  :
+[OK]
+
+OSI Fairfax                :
+[OK]
+WARNING: Use account soon to avoid expiration!
+sfb-itar-basic             :
+[OK]
+WARNING: Use account soon to avoid expiration!
+sfb-itar-doj               :
+[OK]
+WARNING: Use account soon to avoid expiration!
+sfb-itar-it2               :
+[OK]
+WARNING: Use account soon to avoid expiration!
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20170928134405
+**********************

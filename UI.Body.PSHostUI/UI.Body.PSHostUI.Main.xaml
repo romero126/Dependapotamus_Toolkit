@@ -1,0 +1,49 @@
+<UserControl x:Class="UI.Body.PSHostUI.Main"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:PSHostUI="clr-namespace:UI.Body.PSHostUI"
+	
+    xmlns:UXSettings="clr-namespace:UI.Body.PSHostUI.UX.Settings"
+	Loaded="Event_UserControl_Loaded">
+	
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition
+				Height="100" />
+			<RowDefinition
+				Height="*" />
+		</Grid.RowDefinitions>
+		<Grid
+			Grid.Row="0"
+			Background="Black">
+			<Label
+				HorizontalContentAlignment="Center"
+				FontSize="36"
+				Foreground="White"
+				HorizontalAlignment="Stretch"
+				VerticalContentAlignment="Center"
+				FontFamily="Segoe UI">PowerShell Commands</Label>
+		</Grid>
+
+		 
+		<Grid
+			Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition
+					Width="45" />
+				<ColumnDefinition
+					Width="*" />
+			</Grid.ColumnDefinitions>
+
+			<Grid Grid.Column="1">
+				<PSHostUI:Body x:Name="Control_Body"/>
+				<UXSettings:PSRuntime x:Name="Settings_PSRuntime" Visibility="Hidden" />
+				<UXSettings:PSCmdlet x:Name="Settings_PSCmdlet" Visibility="Hidden" />
+			</Grid>
+			<Grid Grid.Column="0" Grid.ColumnSpan="2">
+				<PSHostUI:Toolbar x:Name="Control_Toolbar" />
+			</Grid>
+		</Grid>
+
+	</Grid>
+</UserControl>

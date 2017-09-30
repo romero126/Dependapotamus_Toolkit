@@ -1,0 +1,57 @@
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\Dependapotamus_Toolkit.exe.config
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\Dependapotamus_Toolkit.exe
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\Dependapotamus_Toolkit.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\UI.Body.Ticket.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\Microsoft.Lync.Model.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\Microsoft.Office.Uc.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\UI.Body.Ticket.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\bin\Debug\Microsoft.Lync.Model.xml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Dependapotamus_Toolkit.csprojResolveAssemblyReference.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Dictionary1.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.SideBar.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.Titlebar.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.Body.Powershell.Main.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.SideBar.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.Titlebar.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\UI.Body.Powershell.Main.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Window_Main.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\App.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Dependapotamus_Toolkit_MarkupCompile.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Dependapotamus_Toolkit_MarkupCompile.lref
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Window_Main.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Dependapotamus_Toolkit.g.resources
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Dependapotamus_Toolkit.exe
+C:\Users\v-jurom\Documents\SharpDevelop Projects\ITAR Soverign Cloud Escort Toolkit\ITAR Soverign Cloud Escort Toolkit\obj\Debug\Dependapotamus_Toolkit.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\Dependapotamus_Toolkit.exe.config
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\Dependapotamus_Toolkit.exe
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\Dependapotamus_Toolkit.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\UI.Body.Ticket.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\Microsoft.Lync.Model.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\Microsoft.Office.Uc.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\UI.Body.Ticket.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\Microsoft.Lync.Model.xml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\Dependapotamus_Toolkit.csprojResolveAssemblyReference.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\Dictionary1.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\UI.SideBar.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\UI.Titlebar.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\UI.SideBar.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\UI.Titlebar.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\Window_Main.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\App.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\Dependapotamus_Toolkit_MarkupCompile.cache
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\Dependapotamus_Toolkit_MarkupCompile.lref
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\Window_Main.baml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\Dependapotamus_Toolkit.g.resources
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\Dependapotamus_Toolkit.exe
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\obj\Debug\Dependapotamus_Toolkit.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\UI.Body.PSHostUI.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\UI.Body.PSHostUI.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\System.Data.SQLite.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\System.Data.SQLite.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\System.Data.SQLite.xml
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\UI.Elements.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\UI.Elements.pdb
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\UI.Body.PWKeeper.dll
+C:\Users\v-jurom\Documents\SharpDevelop Projects\Dependapotamus_Toolkit\Dependapotamus_Toolkit\bin\Debug\UI.Body.PWKeeper.pdb

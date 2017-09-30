@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="UI.Elements.UX.TextControl"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Grid
+		Margin="5,5,5,5">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition
+				Width="2*" />
+			<ColumnDefinition
+				Width="1*" />
+			<ColumnDefinition
+				Width="2*" />
+		</Grid.ColumnDefinitions>
+		<Grid
+			Grid.Column="0">
+			<Label
+				x:Name="Label"
+				FontFamily="Segoe UI"
+				FontSize="15"
+				Foreground="Black"
+				VerticalAlignment="Center"
+				HorizontalAlignment="Left"
+				Content="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type UserControl}}, Path=Text, UpdateSourceTrigger=PropertyChanged}" />
+		</Grid>
+		<Grid
+			Grid.Column="2">
+			<Border
+				Background="MediumSlateBlue"
+				CornerRadius="5,5,5,5"
+				Padding="4">
+				<TextBox
+					x:Name="TextBox"
+					FontFamily="Segoe UI"
+					FontSize="12"
+					BorderBrush="Transparent"
+					Background="MediumSlateBlue"
+					TextAlignment="Center"
+					Text="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type UserControl}}, Path=value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+					SelectionBrush="DarkSlateBlue" />
+			</Border>
+		</Grid>
+	</Grid>
+</UserControl>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl
+	
+	x:Class="UI.Body.PSHostUI.Toolbar"
+	xmlns:UIElements="clr-namespace:UI.Elements;assembly=UI.Elements"
+	xmlns:PSHostUI="clr-namespace:UI.Body.PSHostUI"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:UXControls="clr-namespace:UI.Body.PSHostUI.UX.Controls"
+	Loaded="UserControl_Loaded">
+	<UserControl.Resources>
+		<Style
+			x:Key="GridStyle"
+			TargetType="Grid">
+			<Style.Triggers>
+				<Trigger
+					Property="IsMouseOver"
+					Value="False">
+					<Setter
+						Property="Background"
+						Value="SlateBlue"></Setter>
+				</Trigger>
+				<Trigger
+					Property="IsMouseOver"
+					Value="True">
+					<Setter
+						Property="Background"
+						Value="DarkSlateBlue"></Setter>
+				</Trigger>
+			</Style.Triggers>
+			<Style.Resources></Style.Resources>
+		</Style>
+		<BitmapImage
+			x:Key="IMG_Settings"
+			UriSource="Images\Dark\appbar.settings.png" />
+		<BitmapImage
+			x:Key="IMG_Console"
+			UriSource="Images\Dark\appbar.console.png" />
+		<BitmapImage
+			x:Key="IMG_AppbarAdd"
+			UriSource="Images\Dark\appbar.add.png" />
+	</UserControl.Resources>
+	<Grid>
+		<Grid
+			Width="45"
+			HorizontalAlignment="Left"
+			Background="SlateBlue">
+			<StackPanel>
+				<Grid
+					x:Name="Menu"
+					Style="{StaticResource GridStyle}"
+					MouseLeftButtonDown="Menu_MouseLeftButtonDown">
+					<Image
+						Source="Images\Dark\appbar.list.png" />
+				</Grid>
+				<Grid
+					x:Name="PSState_Start"
+					Style="{StaticResource GridStyle}"
+					MouseLeftButtonDown="Menu_PSState_Start_MouseLeftButtonDown">
+					<Image
+						Source="Images\Dark\appbar.control.play.png" />
+				</Grid>
+				<Grid
+					x:Name="PSState_Stop"
+					Style="{StaticResource GridStyle}"
+					MouseLeftButtonDown="Menu_PSState_Stop_MouseLeftButtonDown">
+					<Image
+						Source="Images\Dark\appbar.stop.png" />
+				</Grid>
+				<Grid
+					x:Name="PSState_ShowBuffer"
+					Style="{StaticResource GridStyle}"
+					MouseLeftButtonDown="PSState_ShowBuffer_MouseLeftButtonDown">
+					<Image
+						Source="Images\Dark\appbar.stop.png" />
+				</Grid>
+			</StackPanel>
+		</Grid>
+		<Grid>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition
+					Width="45" />
+				<ColumnDefinition
+					Width="*" />
+			</Grid.ColumnDefinitions>
+			<Grid Grid.Column="1" Width="200" x:Name="SearchMenu" HorizontalAlignment="Left" Visibility="Hidden">
+				<UXControls:PSRuntime />
+			</Grid>
+		</Grid>
+	</Grid>
+</UserControl>
