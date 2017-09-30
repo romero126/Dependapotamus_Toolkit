@@ -7,7 +7,9 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
  
-#define DEBUG
+//define DEBUG
+
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -24,11 +26,13 @@ using System.Data;
 using System.Reflection;
 using System.ComponentModel;
 
+
 namespace UI.Body.PSHostUI.Classes
 {
 	/// <summary>
 	/// Description of objPSListener.
 	/// </summary>
+	
 	public class objPSListener
 	{
 		// This is to replace everything
@@ -171,6 +175,9 @@ namespace UI.Body.PSHostUI.Classes
 			this.powershell.Commands.Commands[0].MergeMyResults(PipelineResultTypes.Error, PipelineResultTypes.Output);
 			psObjectHandler = new PSDataCollection<PSObject>();
 			
+			
+			
+			#if DEBUGa
 			psObjectHandler.DataAdded += (sender, e) => {
 				PSDataCollection<PSObject> myp = (PSDataCollection<PSObject>)sender;
 				Collection<PSObject> results = myp.ReadAll();
@@ -242,10 +249,10 @@ namespace UI.Body.PSHostUI.Classes
 
 				
 			};
-			
-			
-			this.powershell.BeginInvoke<PSObject, PSObject>(null, psObjectHandler, null, new AsyncCallback(executehelper), null);
-			//this.powershell.BeginInvoke<PSObject>(null, null, new AsyncCallback(executehelper), null);
+			this.powershell.BeginInvoke<PSObject, PSObject>(null, psObjectHandler, null, new AsyncCallback(executehelper), null);			
+			#else
+			this.powershell.BeginInvoke<PSObject>(null, null, new AsyncCallback(executehelper), null);
+			#endif
 		}
 
 		public void Execute(string cmd)

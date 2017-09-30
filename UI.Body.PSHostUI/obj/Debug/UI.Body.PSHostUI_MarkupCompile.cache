@@ -16,5 +16,5 @@ DEBUG;TRACE
 18563281320
 UI.Body.PSHostUI.Body.xaml;UI.Body.PSHostUI.Main.xaml;UI.Body.PSHostUI.Toolbar.xaml;UX\Controls\PSCmdlet.xaml;UX\Controls\PSRuntime.xaml;UX\Settings\PSCmdlet.xaml;UX\Settings\PSRuntime.xaml;
 
-True
+False
 

@@ -111,28 +111,40 @@ namespace UI.Body.PSHostUI.Classes
 		public void ps_call(string text) {
 			Listener.Execute(text);
 			Listener.buffer = Listener.buffer;
+			history_add(text);
 			//MessageBox.Show("Finished Running stuff?\r\n\r\n" + buffer);
 		}
+		private List<string> history_list;
+		private int history_pos { get; set; }
 		
 		public void history_add(string text)
 		{
-			
+			if (history_list == null) {
+				history_list = new List<string>();
+			}
+			history_list.Add(text);
 		}
 		public void history_reset()
 		{
-			
+			history_pos = 0;
 		}
 		public void history_prev()
 		{
-			
+			history_pos -= 1;
+			if (history_pos < 0)
+				history_pos = 0;
 		}
 		public void history_next()
 		{
-			
+			history_pos += 1;
+			if (history_pos >= history_list.Count)
+				history_pos = history_list.Count - 1;
 		}
 		public string history_getdata()
 		{
-			return "";
+			if (history_list == null)
+				return "";
+			return history_list[history_pos];
 		}
 		
 	}
