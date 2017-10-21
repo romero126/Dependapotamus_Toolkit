@@ -52,5 +52,6 @@ namespace UI.Body.Ticket
 			}
 			node.Value = text.Text;
 		}
+
 	}
 }

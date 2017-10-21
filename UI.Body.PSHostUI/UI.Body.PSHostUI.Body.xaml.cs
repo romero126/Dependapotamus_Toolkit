@@ -39,24 +39,26 @@ namespace UI.Body.PSHostUI
 		public bool Console_AutoScroll = true;
 		void Event_Input_PreviewKeyDown(object sender, KeyEventArgs e)
 		{
-			//System.Windows.Input.Key.LeftCtrl || System.Windows.Input.Key.RightCtrl
-			if (System.Windows.Input.Keyboard.IsKeyDown(System.Windows.Input.Key.LeftShift) || System.Windows.Input.Keyboard.IsKeyDown(System.Windows.Input.Key.RightShift)) {
-				if (e.Key.ToString() == "Return") {
-					globals.PSruntime.ps_call(input.Text);
-					globals.PSruntime.ps_call(input.Text);
-					globals.PSruntime.history_add(input.Text);
-					globals.PSruntime.history_reset();
-					input.Text = "";
-					e.Handled = true;
-				}
-			} else if (System.Windows.Input.Keyboard.IsKeyDown(System.Windows.Input.Key.Up))
-			{
+			if ((System.Windows.Input.Keyboard.IsKeyDown(System.Windows.Input.Key.LeftShift) || System.Windows.Input.Keyboard.IsKeyDown(System.Windows.Input.Key.RightShift))
+				&& e.Key.ToString() == "Return" ) {
+				input.Text += "\r\n";
+			}
+			else if (e.Key.ToString() == "Return") {
+				if (globals.PSruntime.ps_status())
+					return;
+					
+				globals.PSruntime.ps_call(input.Text);
+				globals.PSruntime.history_add(input.Text);
+				globals.PSruntime.history_reset();
+				input.Text = "";
+				e.Handled = true;
+			} else if (System.Windows.Input.Keyboard.IsKeyDown(System.Windows.Input.Key.Up)) {
 				globals.PSruntime.history_prev();
-				input.Text = globals.PSruntime.history_getdata().ToString();
-			} else if (System.Windows.Input.Keyboard.IsKeyDown(System.Windows.Input.Key.Down))
-			{
+				input.Text = globals.PSruntime.history_getdata().ToString();	
+			} else if (System.Windows.Input.Keyboard.IsKeyDown(System.Windows.Input.Key.Down)) {
 				globals.PSruntime.history_next();
-		    	input.Text = globals.PSruntime.history_getdata().ToString();
+		    	input.Text = globals.PSruntime.history_getdata().ToString();	
+
 			}
 		}
 		void Event_ScrollViewer_ScrollChanged(object sender, ScrollChangedEventArgs e)

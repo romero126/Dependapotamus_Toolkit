@@ -79,6 +79,7 @@
     <Compile Include="Classes\PSRuntime\objPSHostUserInterface.cs" />
     <Compile Include="Classes\PSRuntime\objPSListener.cs" />
     <Compile Include="Classes\PSRuntime\objPSRawUserInterface.cs" />
+    <Compile Include="Classes\PSRuntime\SessionStateProxy.cs" />
     <Compile Include="Classes\SQLDB.cs" />
     <Compile Include="globals.cs" />
     <Compile Include="UI.Body.PSHostUI.Main.xaml.cs">

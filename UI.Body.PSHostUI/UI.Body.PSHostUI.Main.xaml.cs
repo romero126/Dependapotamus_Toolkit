@@ -34,7 +34,6 @@ namespace UI.Body.PSHostUI
 			globals.PSHostUI_Main = this;
 			globals.PSHostUI_Control_Body = Control_Body;
 			globals.PSHostUI_Control_Toolbar = Control_Toolbar;
-			
 			// Updated Things go Below
 			
 			globals.UX_Settings_PSCmdlet = Settings_PSCmdlet;

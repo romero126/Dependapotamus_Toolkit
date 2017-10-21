@@ -10,6 +10,7 @@ using System.Windows.Data;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
+using System.Management.Automation;
 
 
 namespace UI.Body.PSHostUI
@@ -23,6 +24,7 @@ namespace UI.Body.PSHostUI
 		//public static List<object> _obj;
 		//public string str {get; set; }
 		//public List<object> SQL_COMMANDS;
+		public static PowerShell Thread_PSRuntime = PowerShell.Create();
 		public static string gstring = "pew pew";
 		public static Classes.PSConsole PSruntime;
 		

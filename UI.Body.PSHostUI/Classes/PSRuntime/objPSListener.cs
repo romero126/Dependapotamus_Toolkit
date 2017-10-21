@@ -8,7 +8,7 @@
  */
  
 //define DEBUG
-
+//#define TESTValues
 
 using System;
 using System.Collections;
@@ -90,8 +90,11 @@ namespace UI.Body.PSHostUI.Classes
 					onBufferChanged(this, EventArgs.Empty);
 			};
 			this.runspace = RunspaceFactory.CreateRunspace(this._objPSHost);
-			this.runspace.Open();
 
+			this.runspace.Open();
+			
+			this.runspace.SessionStateProxy.SetVariable("PSHostUI", new Classes.PSRuntime.SessionStateProxy());
+			
 			this.executehelper("Write-Host Windows Powershell `r`nCopyright `(C`) 2016 Microsoft Corporation. All rights reserved.`r`n`r`n", null);
 			//C:\Users\v-jurom\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 		}
@@ -143,7 +146,9 @@ namespace UI.Body.PSHostUI.Classes
 				}
 			}
 		}
-
+		public bool GetInvocationStateInfo() {
+			return (this.powershell != null);
+		}
 		private void executehelper(IAsyncResult result)
 		{
 			if (result.IsCompleted != true)
@@ -164,20 +169,28 @@ namespace UI.Body.PSHostUI.Classes
 			if (this.powershell == null) {
 				this.powershell = PowerShell.Create();
 				this.powershell.Runspace = this.runspace;
+				
 			}
 			if (this.powershell.InvocationStateInfo.State == PSInvocationState.Running)
 				return;
 			
-			
+			this.buffer += string.Format("{0}\r\n", cmd);
 			this.powershell.Commands.Clear();
+			if (cmd.Substring(0,4) == "#MOD") {
+				
+				System.Management.Automation.Runspaces.Runspace.DefaultRunspace = this.powershell.Runspace;
+			}
 			this.powershell.AddScript(cmd);
-			//this.powershell.AddCommand("out-default");
+			#if TESTValues
+			#else
+			this.powershell.AddCommand("out-default");
+			#endif
 			this.powershell.Commands.Commands[0].MergeMyResults(PipelineResultTypes.Error, PipelineResultTypes.Output);
 			psObjectHandler = new PSDataCollection<PSObject>();
 			
 			
 			
-			#if DEBUGa
+			#if TESTValues
 			psObjectHandler.DataAdded += (sender, e) => {
 				PSDataCollection<PSObject> myp = (PSDataCollection<PSObject>)sender;
 				Collection<PSObject> results = myp.ReadAll();
@@ -196,12 +209,16 @@ namespace UI.Body.PSHostUI.Classes
 				foreach (PSObject result in results)
 				{
 					//TypeData(result);
-
 					
-
-					foreach (string ti in result.TypeNames) {
-						buffer += String.Format("     -> {0}\r\n", ti);
-					}
+					buffer += String.Format("Primative: {0}\r\n", (result as PS));
+						//var outdata = Microsoft.PowerShell.DeserializingTypeConverter.GetParameterSetMetadataFlags(result);
+						
+						//buffer += String.Format("{0}\r\n", outdata);
+					//
+					
+					//foreach (string ti in result.TypeNames) {
+					//	buffer += String.Format("     -> {0}\r\n", ti);
+					//}
 					
 					//foreach (PSProperty i in result.TypeNames) {
 
@@ -251,6 +268,7 @@ namespace UI.Body.PSHostUI.Classes
 			};
 			this.powershell.BeginInvoke<PSObject, PSObject>(null, psObjectHandler, null, new AsyncCallback(executehelper), null);			
 			#else
+
 			this.powershell.BeginInvoke<PSObject>(null, null, new AsyncCallback(executehelper), null);
 			#endif
 		}

@@ -19,18 +19,7 @@
 			
 			<Border Name="border" CornerRadius="5,5,5,5" Background="Black">
 				<Grid>
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="200" />
-						<ColumnDefinition Width="*" />
-					</Grid.ColumnDefinitions>
-					<Grid Grid.Column="0" Margin="10,10,2,10">
-						<Border CornerRadius="5,0,0,5" Background="LightGray" Opacity="1">
-							<Controls:DatabaseList />
-						</Border>
-					</Grid>
-					<Grid Grid.Column="1" Margin="2,10,10,10">
 						<Controls:DatabaseGrid />
-					</Grid>
 				</Grid>
 			</Border>
 			<UXSettings:DatabaseList/> 

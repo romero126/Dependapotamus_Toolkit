@@ -94,7 +94,11 @@ namespace UI.Body.PSHostUI.Classes
 			this.Listener.onBufferChanged += (sender, e) => {
 				OnPropertyChanged("buffer");
 			};
-			
+		
+		}
+		public bool ps_status()
+		{
+			return Listener.GetInvocationStateInfo();
 		}
 		public void ps_init()
 		{
@@ -102,17 +106,23 @@ namespace UI.Body.PSHostUI.Classes
 		}
 		public void ps_start()
 		{
+			if (Listener.GetInvocationStateInfo()) {
+				return;
+			}
 			
 		}
 		public void ps_stop()
 		{
-			
+
+			if (Listener.GetInvocationStateInfo()) {
+				buffer += "Stopping invocation.\r\n";
+				// Do Stuff here to stop the invocation state;
+			}
 		}
 		public void ps_call(string text) {
 			Listener.Execute(text);
 			Listener.buffer = Listener.buffer;
 			history_add(text);
-			//MessageBox.Show("Finished Running stuff?\r\n\r\n" + buffer);
 		}
 		private List<string> history_list;
 		private int history_pos { get; set; }
@@ -126,7 +136,7 @@ namespace UI.Body.PSHostUI.Classes
 		}
 		public void history_reset()
 		{
-			history_pos = 0;
+			history_pos = history_list.Count - 1;
 		}
 		public void history_prev()
 		{
